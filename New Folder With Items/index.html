@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HK Longman's Beaked Whale</title>
+  </head>
+  <body>
+    <h1>HK Longman's Beaked Whale</h1>
+    <p>Coming soon: Degreasing process & 3D model display</p>
+  </body>
+
+  <!-- Direct link for iOS Quick Look -->
+  <p>
+    <a href="AR-models/Longman-skull.usdz" rel="ar">
+      View Longman’s Beaked Whale Skull in AR
+    </a>
+  </p>
+
+  <!-- Cross-platform embed using <model-viewer> -->
+  <script
+    type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+  ></script>
+
+  <model-viewer
+    src="AR-models/Longman-skull.glb"
+    ios-src="AR-models/Longman-skull.usdz"
+    ar
+    auto-rotate
+    camera-controls
+    alt="Longman’s Beaked Whale Skull 3D Model"
+  >
+  </model-viewer>
+</html>
